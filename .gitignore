@@ -1,0 +1,17 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 打包产物与临时文件
+dist/
+build/work/
+build/build_log.txt
+*.log
+*.tmp
+*.zip
+.DS_Store

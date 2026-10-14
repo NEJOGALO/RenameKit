@@ -1,0 +1,9 @@
+# RenameKit 依赖清单（锁定版本，保证可复现）
+# 运行时必需
+customtkinter==6.0.0
+tkinterdnd2==0.6.4
+pillow==12.3.0   # CTkImage 显示 Logo 需要（CTk 6.0 已不内置 Pillow）
+
+# ---- 以下为开发/打包依赖 ----
+pyinstaller==6.22.3   # 已在 Python 3.14 实测冻结 exe 成功（阶段5 用）
+# pytest==9.1.1       # 阶段6 单元测试时取消注释
